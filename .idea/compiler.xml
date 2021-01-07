@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="prototype-pattern" />
+        <module name="abstract-factory-pattern" />
+        <module name="factory-pattern" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="abstract-factory-pattern" target="8" />
+      <module name="design-pattern" target="8" />
+      <module name="factory-pattern" target="8" />
+      <module name="prototype-pattern" target="8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="abstract-factory-pattern" options="" />
+      <module name="design-pattern" options="" />
+      <module name="factory-pattern" options="" />
+      <module name="prototype-pattern" options="" />
+    </option>
+  </component>
+</project>
