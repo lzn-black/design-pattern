@@ -6,6 +6,7 @@
         <module>factory-pattern</module>
         <module>abstract-factory-pattern</module>
         <module>prototype-pattern</module>
+        <module>chain-responsibility-pattern</module>
     </modules>
     <groupId>com.lzn</groupId>
     <artifactId>designpattern</artifactId>

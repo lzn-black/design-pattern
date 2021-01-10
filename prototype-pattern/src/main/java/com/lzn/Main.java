@@ -26,10 +26,10 @@ import java.util.concurrent.TimeUnit;
 @Measurement(iterations = 5, time = 1, timeUnit = TimeUnit.SECONDS)
 @Fork(1)
 @BenchmarkMode(Mode.AverageTime)
-@OutputTimeUnit(TimeUnit.NANOSECONDS)
+@OutputTimeUnit(TimeUnit.MILLISECONDS)
 public class Main {
     
-    private static final int LOOP = 10000;
+    private static final int LOOP = 1000000;
     
     public static void main(String[] args) throws RunnerException {
         Options opt = new OptionsBuilder()
