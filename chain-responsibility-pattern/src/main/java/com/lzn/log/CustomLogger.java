@@ -27,7 +27,10 @@ public abstract class CustomLogger {
         if (this.level <= level) {
             writeLog(message);
         }
-        nextLogger.log(level, message);
+    
+        if (nextLogger != null) {
+            nextLogger.log(level, message);
+        }
     }
     
     /**
